@@ -1,0 +1,13 @@
+
+.menu__item {
+  --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.menu__item:hover {
+  --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.menu__nesting {
+  transition: clip-path 0.3s;
+  clip-path: var(--clip);
+  transform: translateY(100%);
+}
+
