@@ -2,11 +2,14 @@
 import Image from 'next/image';
 import yourResto from '../../public/your_logo.png';
 import Button from '@/commons/Button';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import '../styles/Nav.css';
 export default function Nav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  useEffect(() => {
+    setIsNavExpanded(false); // Ajusta el estado inicial en el cliente
+  }, []);
 
   const toggleNav = () => {
     setIsNavExpanded(!isNavExpanded);
@@ -37,21 +40,15 @@ export default function Nav() {
           <ul
             className={`flex flex-col  items-start justify-center pl-14 w-full text-sm font-semibold bg-white backdrop-blur-sm bg-opacity-80`}
           >
-            <Link href={'/'}>
-              <li className="hover:text-green-700 cursor-pointer my-3">
-                STRATEGIC CONSULTING
-              </li>
-            </Link>
-            <Link href={'/'}>
-              <li className="hover:text-green-700 cursor-pointer my-3">
-                ABOUT US
-              </li>
-            </Link>
-            <Link href={'/'}>
-              <li className="hover:text-green-700 cursor-pointer my-3">
-                CONTACT
-              </li>
-            </Link>
+            <li className="hover:text-green-700 cursor-pointer my-3">
+              <Link href={'/'}>STRATEGIC CONSULTING</Link>
+            </li>
+            <li className="hover:text-green-700 cursor-pointer my-3">
+              <Link href={'/'}>ABOUT US</Link>
+            </li>
+            <li className="hover:text-green-700 cursor-pointer my-3">
+              <Link href={'/'}>CONTACT</Link>
+            </li>
           </ul>{' '}
         </div>
       </div>
@@ -65,36 +62,33 @@ export default function Nav() {
 
         <div className="w-[70%] h-full">
           <ul className=" sm:flex items-center justify-end h-full w-full text-sm font-semibold">
-            <Link href={'/'} className="h-full">
-              <li className="hover:text-gray-700 h-full relative cursor-pointer px-6 menu__item flex items-center ">
-                STRATEGIC CONSULTING
-                <ul className="menu__nesting bg-white border-t border-solid border-black w-full right-0 bottom-0 absolute">
-                  <li>
-                    <Link href="#" className="flex p-8 hover:text-black">
-                     <p> Projects 1</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="flex p-8 hover:text-black">
-                    <p>  Projects 2</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="flex p-8 hover:text-black">
-                     <p>    Projects 3</p>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-            </Link>
-            <Link href={'/'}>
-              <li className="hover:text-gray-500 cursor-pointer px-6">
-                ABOUT US
-              </li>
-            </Link>
-            <Link href={'/'}>
-              <li className="hover:text-gray-500 cursor-pointer">CONTACT</li>
-            </Link>
+            <li className="hover:text-gray-700 h-full relative cursor-pointer px-6 menu__item flex items-center ">
+              STRATEGIC CONSULTING
+              <ul className="menu__nesting bg-white border-t border-solid border-black w-full right-0 bottom-0 absolute">
+                <li>
+                  <Link href="#" className="flex p-8 hover:text-black">
+                    Projects 1
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="flex p-8 hover:text-black">
+                    Projects 2
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="flex p-8 hover:text-black">
+                    Projects 3
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className="hover:text-gray-500 cursor-pointer px-6">
+              <Link href={'/'}>ABOUT US</Link>
+            </li>
+            <li className="hover:text-gray-500 cursor-pointer">
+              <Link href={'/'}>CONTACT</Link>
+            </li>
           </ul>
         </div>
       </div>

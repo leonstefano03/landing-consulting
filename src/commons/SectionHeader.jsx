@@ -1,4 +1,4 @@
-export default function Section() {
+export default function SectionHeadear() {
   return (
     <section
       id="firstSection"

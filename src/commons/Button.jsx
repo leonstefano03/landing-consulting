@@ -10,7 +10,7 @@ export default function Button({ className, onClick }) {
         id="menu-open"
         onChange={onClick}
       />
-      <label className="menu-open-button" for="menu-open">
+      <label className="menu-open-button" htmlFor="menu-open">
         <span className="lines line-1"></span>
         <span className="lines line-2"></span>
         <span className="lines line-3"></span>
