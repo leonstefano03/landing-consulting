@@ -71,17 +71,17 @@ export default function Nav() {
                 <ul className="menu__nesting bg-white border-t border-solid border-black w-full right-0 bottom-0 absolute">
                   <li>
                     <Link href="#" className="flex p-8 hover:text-black">
-                      Projects 1
+                     <p> Projects 1</p>
                     </Link>
                   </li>
                   <li>
                     <Link href="#" className="flex p-8 hover:text-black">
-                      Projects 2
+                    <p>  Projects 2</p>
                     </Link>
                   </li>
                   <li>
                     <Link href="#" className="flex p-8 hover:text-black">
-                      Projects 3
+                     <p>    Projects 3</p>
                     </Link>
                   </li>
                 </ul>
