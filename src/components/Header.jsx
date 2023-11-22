@@ -25,14 +25,14 @@ export default function Header({ imgPeople }) {
             de experiencia ayudando a empresas de todo el mundo.
           </p>
           <div className="flex justify-center w-full">
-            <Link href={'#firstSection'} className="">
+            <a href={'#firstSection'} className="">
                 <Image
                   width={70}
                   height={100}
                   src={'/arrow_down.png'}
                   className="hover:scale-125  hover:animate-spin cursor-pointer"
                 />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
