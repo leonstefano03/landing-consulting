@@ -1,4 +1,4 @@
-import SectionOptions from './SectionOptions';
+import SectionOptions from '../commons/SectionOptions';
 
 export default function SectionAfterHeadear() {
   return (
@@ -6,22 +6,22 @@ export default function SectionAfterHeadear() {
       <div className=" md:w-[80%] flex md:flex-row flex-col">
         <div className="md:w-1/2">
           <SectionOptions
-            title={'PLAN ESTRATÉGICO'}
-            subTitle={'¿Quieres crecer de forma sostenible y duradera?'}
+            title={'STRATEGIC PLAN'}
+            subTitle={'Do you want to grow sustainably and lastingly?'}
             parraf={
-              'Te ayudamos a lograr un crecimiento sostenido en el tiempo y sostenible con el entorno, gracias a la adopción de decisiones clave en diferentes ámbitos del negocio.'
+              'We help you achieve sustained growth over time and that is sustainable with the environment, thanks to the adoption of key decisions in different areas of the business.'
             }
           />
         </div>
         <div className="md:w-1/2">
           <SectionOptions
-            title={'IMPLANTACIÓN ESTRATÉGICA'}
-            subTitle={'¿Tienes una visión compartida de la estrategia?'}
+            title={'STRATEGIC IMPLEMENTATION'}
+            subTitle={'Do you have a shared vision of the strategy?'}
             parraf={
-              'Difícilmente podremos obtener los resultados que queremos si las personas de nuestra organización no conocen a dónde queremos llegar. Y es que los resultados de una empresa son consecuencia de la suma de las actuaciones de las personas que la componen.'
+              'We will hardly be able to obtain the results we want if the people in our organization do not know where we want to go. And the results of a company are a consequence of the sum of the actions of the people who make it up.'
             }
           />
-        </div>{' '}
+        </div>
       </div>
     </section>
   );

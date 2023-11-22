@@ -7,14 +7,15 @@ export default function SectionHeadear() {
       <div className="w-[70%] h-full relative">
         <div className="w-2/6 h-full flex flex-col justify-center items-start text-white  relative">
           <h1 className="text-xl mt-12  mb-6 font-semibold">
-            CONSULTORÍA ESTRATÉGICA
+          STRATEGIC CONSULTING
+
           </h1>
           <h2 className="text-6xl mb-6 font-bold">
-            Haciendo que las cosas sucedan .
+          Making things happen.
           </h2>
           <p className="text-lg mb-6">
-            Trabajamos para que la estrategia se haga realidad. Más de 20 años
-            de experiencia ayudando a empresas de todo el mundo.
+          We work to make the strategy come true. More than 20 years
+            of experience helping companies around the world.
           </p>
         </div>
       </div>

@@ -18,11 +18,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(255, 255, 255);  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-}
-main {
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+  background: rgb(255, 255, 255); 
 }
