@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Nav from '@/components/Nav';
 import SectionAfterHeadear from '@/components/SectionAfterHeader';
 import SectionHome from '@/components/SectionHome';
-import SectionExperience from '@/components/SectioExperience';
+import SectionExperience from '@/components/SectionExperience';
 
 export default function Home() {
   return (
