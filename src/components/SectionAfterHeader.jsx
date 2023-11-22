@@ -1,4 +1,4 @@
-import SectionOptions from '../commons/SectionOptions';
+import SectionOptions from './SectionOptions';
 
 export default function SectionAfterHeadear() {
   return (
