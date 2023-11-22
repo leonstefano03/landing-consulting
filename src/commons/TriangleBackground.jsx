@@ -3,7 +3,7 @@ export default function Triangle({img}) {
   return (
     <section className="w-full h-full absolute flex flex-col justify-between overflow-hidden " >
       <div
-        className="left-0 bottom-0 absolute inset-0 bg-cover bg-center z-0  "
+        className="left-0 bottom-0 absolute inset-0 bg-fixed bg-cover bg-center z-0  "
         style={{
           backgroundImage: `url(${img})`,
         }}
