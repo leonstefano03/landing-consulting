@@ -47,7 +47,7 @@ export default function Nav() {
               <Link href={'/about-us'}>ABOUT US</Link>
             </li>
             <li className="hover:text-green-700 cursor-pointer my-3">
-              <Link href={'/'}>CONTACT</Link>
+              <Link href={'/contact'}>CONTACT</Link>
             </li>
           </ul>{' '}
         </div>
@@ -87,7 +87,7 @@ export default function Nav() {
               <Link href={'/about-us'}>ABOUT US</Link>
             </li>
             <li className="hover:text-gray-500 cursor-pointer">
-              <Link href={'/'}>CONTACT</Link>
+              <Link href={'/contact'}>CONTACT</Link>
             </li>
           </ul>
         </div>

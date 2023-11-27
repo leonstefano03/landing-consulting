@@ -2,10 +2,17 @@ import SectionOptions from '../commons/SectionOptions';
 
 export default function SectionAfterHeadear() {
   return (
-    <section id='firstSection' className="flex w-full justify-center items-center mb-12">
+    <section
+      id="firstSection"
+      className="flex w-full justify-center items-center mb-12"
+    >
       <div className=" md:w-[80%] flex md:flex-row flex-col">
         <div className="md:w-1/2">
           <SectionOptions
+            textColor={'text-black'}
+            button={'SEE MORE'}
+            titleColor={'text-gray-600'}
+            hoverBottonTextColor={'text-black'}
             title={'STRATEGIC PLAN'}
             subTitle={'Do you want to grow sustainably and lastingly?'}
             parraf={
@@ -15,6 +22,10 @@ export default function SectionAfterHeadear() {
         </div>
         <div className="md:w-1/2">
           <SectionOptions
+            textColor={'text-black'}
+            button={'SEE MORE'}
+            titleColor={'text-gray-600'}
+            hoverBottonTextColor={'text-black'}
             title={'STRATEGIC IMPLEMENTATION'}
             subTitle={'Do you have a shared vision of the strategy?'}
             parraf={
