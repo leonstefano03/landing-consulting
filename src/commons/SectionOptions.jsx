@@ -4,7 +4,7 @@ export default function SectionOptions({ title, subTitle, parraf ,button, titleC
       id="firstSection"
       className={`relative overflow-hidden flex justify-center items-center ${textColor} `}
     >
-      <div className="w-[70%] h-full relative  ">
+      <div className="w-[90%] sm:w-[70%] h-full relative  ">
         <div className="w-full h-full flex flex-col justify-center items-start  relative">
           <h1 className={`text-sm mt-12 ${titleColor} font-semibold border-b border-solid- border-black mb-4`}>
             {title}

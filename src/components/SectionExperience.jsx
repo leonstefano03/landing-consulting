@@ -11,25 +11,25 @@ export default function SectionExperience({ img }) {
         </h2>
         <h1 className="font-medium text-4xl mb-8">Success stories</h1>
         <div className="grid md:grid-cols-4  grid-cols-2 gap-10">
-          <div className="w-[150px] h-[150px] flex items-center justify-center">
+          <div className="w-[100px] h-[100px]  flex items-center justify-center">
             <Image width={150} height={0} src={'/amadeus.png'} />
           </div>
-          <div className="w-[150px] h-[150px] flex items-center justify-center">
+          <div className="w-[100px] h-[100px] flex items-center justify-center">
             <Image width={150} height={0} src={'/APCartagena.png'} />
           </div>
-          <div className="w-[150px] h-[150px]  flex items-center justify-center">
+          <div className="w-[100px] h-[100px] flex items-center justify-center">
             <Image width={150} height={0} src={'/CPS1.webp'} />
           </div>
-          <div className="w-[150px] h-[150px] flex items-center justify-center">
+          <div className="w-[100px] h-[100px] flex items-center justify-center">
             <Image width={100} height={0} src={'/grupo-simetria.webp'} />
           </div>
-          <div className="w-[150px] h-[150px] hidden  md:visible md:flex items-center justify-center">
+          <div className="w-[100px] h-[100px] hidden  md:visible md:flex items-center justify-center">
             <Image width={150} height={0} src={'/PortCastelló.webp'} />
           </div>
-          <div className="w-[150px] h-[150px] hidden  md:visible md:flex items-center justify-center ">
+          <div className="w-[100px] h-[100px] hidden  md:visible md:flex items-center justify-center ">
             <Image width={150} height={0} src={'/puertos-del-estado.png'} />
           </div>
-          <div className="w-[150px] h-[150px] hidden  md:visible md:flex items-center justify-center">
+          <div className="w-[100px] h-[100px] hidden  md:visible md:flex items-center justify-center">
             <Image
               className="relative top-[-20px]"
               width={150}
