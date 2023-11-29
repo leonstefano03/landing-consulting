@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import HeaderAbout from '@/components/HeaderAbout';
 import Nav from '@/components/Nav';
 import SectionAbout from '@/components/SectionAbout';
@@ -37,6 +38,7 @@ export default function AboutUs() {
       />
       <SectionAboutInfo />
       <SectionContact imgPeople={'/Peoplebyw.jpg'} />
+      <Footer/>
     </main>
   );
 }
