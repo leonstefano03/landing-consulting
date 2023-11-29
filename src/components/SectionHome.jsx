@@ -5,7 +5,7 @@ export default function SectionHome({ img }) {
     <section className="flex w-full h-screen md:h-[700px] justify-center items-center mb-12  relative z-0">
       <Triangle img={img} />
       <div className="w-full h-[80%] md:h-[60%] z-10 flex text-black justify-center ">
-        <div className="w-[80%] sm:w-[55%] md:w-1/2 h-full sm:ml-[35%] md:ml-[40%] flex flex-col justify-center items-center relative top-[-100px] sm:top-0 text-center mt-10">
+        <div className="w-[90%] sm:w-[55%] md:w-1/2 h-full sm:ml-[35%] md:ml-[40%] flex flex-col justify-center items-center relative top-[0px] sm:top-0 text-center mt-10">
           <p className="text-lg ">
           The Co-Enable team, led by its director Enrique Vicedo,
             has extensive international experience with more than 20 years
