@@ -17,16 +17,17 @@ export default function SectionContact({ imgPeople }) {
           width={0}
           height={0}
           src={'/triangleUp.svg'}
+          alt='tiangle white up'
         />
       </section>
 
       <div className="w-[90%] sm:w-[70%] h-[84%] relative z-5  flex items-center">
-        <div class="w-full max-h-[90%] relative overflow-hidden z-0 bg-gray-900 backdrop-blur-sm bg-opacity-90 p-8  shadow-md before:w-24 before:h-24 before:absolute before:bg-green-700 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-green-900 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
-          <h2 class=" text-white text-sm sm:text-lg text-bold">CONTACT US</h2>
+        <div className="w-full max-h-[90%] relative overflow-hidden z-0 bg-gray-900 backdrop-blur-sm bg-opacity-90 p-8  shadow-md before:w-24 before:h-24 before:absolute before:bg-green-700 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-green-900 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
+          <h2 className=" text-white text-sm sm:text-lg text-bold">CONTACT US</h2>
           <span className="">_________</span>
 
-          <h1 class="text-3xl font-semibold text-white  sm:flex hidden mb-4">
-            Talk later?
+          <h1 className="text-3xl font-semibold text-white  sm:flex hidden mb-4">
+          THE FIRST STEP FOR CHANGE
           </h1>
           <p className="text-sm sm:text-lg">
             Our goal is to help you enhance your organization. We are by your
@@ -41,35 +42,35 @@ export default function SectionContact({ imgPeople }) {
           </p>
           <form method="post" action="#">
             <div className=" grid grid-cols-2 gap-x-4 gap-y-2 mb-2">
-              <div class="">
+              <div className="">
                 <input
-                  class="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
+                  className="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
                   type="text"
                   name="name"
                   placeholder="Name"
                 />
               </div>
 
-              <div class="">
+              <div className="">
                 <input
-                  class="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
+                  className="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
                   name="email"
                   id="email"
                   type="email"
                   placeholder="Email"
                 />
               </div>
-              <div class="">
+              <div className="">
                 <input
-                  class="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
+                  className="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
                   type="company"
                   placeholder="Company"
                 />
               </div>
 
-              <div class="">
+              <div className="">
                 <input
-                  class="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
+                  className="mt-1 p-2 w-full bg-gray-800 border border-gray-700  text-white"
                   name="phone"
                   id="phone"
                   type="phone"
@@ -77,9 +78,9 @@ export default function SectionContact({ imgPeople }) {
                 />
               </div>
             </div>
-            <div class="mb-2 sm:mb-4">
+            <div className="mb-2 sm:mb-4">
               <textarea
-                class="mt-1 p-2 w-full bg-gray-800 border border-gray-700 max-h-[300px]  text-white"
+                className="mt-1 p-2 w-full bg-gray-800 border border-gray-700 max-h-[300px]  text-white"
                 rows="3"
                 name="help"
                 id="help"
@@ -87,9 +88,9 @@ export default function SectionContact({ imgPeople }) {
               ></textarea>
             </div>
 
-            <div class="flex justify-end">
+            <div className="flex justify-end">
               <button
-                class="bg-gradient-to-r from-black via-green-900 to-gray-800 text-white px-4 py-2 font-bold hover:opacity-80"
+                className="bg-gradient-to-r from-black via-green-900 to-gray-800 text-white px-4 py-2 font-bold hover:opacity-80"
                 type="submit"
               >
                 SUBMIT

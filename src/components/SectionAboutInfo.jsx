@@ -38,6 +38,7 @@ export default function SectionAboutInfo() {
             width={10000}
             height={100}
             src={'/equipoEmpresa.jpeg'}
+            alt='team company'
           />
         </div>
       </div>

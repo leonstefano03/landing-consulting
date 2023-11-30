@@ -11,6 +11,7 @@ export default function SectionAfterHeadear() {
           <SectionOptions
             textColor={'text-black'}
             button={'SEE MORE'}
+            href={'/strategic-plan'}
             titleColor={'text-gray-600'}
             hoverBottonTextColor={'text-black'}
             title={'STRATEGIC PLAN'}
@@ -24,6 +25,7 @@ export default function SectionAfterHeadear() {
           <SectionOptions
             textColor={'text-black'}
             button={'SEE MORE'}
+            href={'/contact'}
             titleColor={'text-gray-600'}
             hoverBottonTextColor={'text-black'}
             title={'STRATEGIC IMPLEMENTATION'}
