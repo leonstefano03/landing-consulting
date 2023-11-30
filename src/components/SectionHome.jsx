@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Triangle from '../commons/TriangleBackground';
 
 export default function SectionHome({ img }) {
@@ -33,9 +34,9 @@ export default function SectionHome({ img }) {
 </p>
             </div>
           </div>
-          <button className="mt-6 w-[200px] bg-white md:bg-transparent smky-btn3 relative py-2 px-6 after:absolute after:h-1 after:hover:h-[400%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-0 after:z-[-20] after:bg-[#abd373] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-black">
+      <Link href={'/about-us'}>    <button className="mt-6 w-[200px] bg-white md:bg-transparent smky-btn3 relative py-2 px-6 after:absolute after:h-1 after:hover:h-[400%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-0 after:z-[-20] after:bg-[#abd373] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-black">
           KNOW US
-          </button>
+          </button></Link>
         </div>
       </div>
     </section>

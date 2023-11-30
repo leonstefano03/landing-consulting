@@ -30,6 +30,7 @@ export default function Header({ imgPeople }) {
                   height={100}
                   src={'/arrow_down.png'}
                   className="hover:scale-125  hover:animate-spin cursor-pointer"
+                  alt='arrow down'
                 />
             </a>
           </div>

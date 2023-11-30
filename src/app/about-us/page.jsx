@@ -16,6 +16,7 @@ export default function AboutUs() {
         textColor={'text-black'}
         bg={'bg-gray-300'}
         button={'CONTACT'}
+        href={'/contact'}
         title={'FOUNDING-PARTNER'}
         subTitle={'León Stéfano'}
         parraf={
@@ -29,6 +30,7 @@ export default function AboutUs() {
         textColor={'text-black'}
         bg={'bg-gray-400'}
         button={'CONTACT'}
+        href={'/contact'}
         title={'SENIOR-CONSULTANT'}
         subTitle={'Martina Salvador'}
         parraf={

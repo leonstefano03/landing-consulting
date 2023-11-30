@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import yourResto from '../../public/your_logo.png';
+import yourCompany from '../../public/mth.svg';
 import Button from '@/commons/Button';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -22,7 +22,7 @@ export default function Nav() {
       <div className="flex h-full w-full sm:hidden items-center relative justify-between px-4 py-3 bg-white backdrop-blur-sm bg-opacity-80 z-20">
         <div>
           <Link href={'/'}>
-            <Image width={50} src={yourResto} alt="logo" />
+            <Image width={50} src={yourCompany} alt="logo" />
           </Link>
         </div>
         <div>
@@ -56,7 +56,7 @@ export default function Nav() {
       <div className=" h-full hidden sm:flex w-full items-center justify-center bg-white  bg-opacity-80 backdrop-blur-sm">
         <div>
           <Link href={'/'}>
-            <Image width={50} src={yourResto} alt="logo" />
+            <Image width={50} src={yourCompany} alt="logo" />
           </Link>
         </div>
 
@@ -66,20 +66,16 @@ export default function Nav() {
               STRATEGIC CONSULTING
               <ul className="menu__nesting bg-white border-t border-solid border-black w-full right-0 bottom-0 absolute">
                 <li>
-                  <Link href="#" className="flex p-8 hover:text-black">
-                    Projects 1
+                  <Link href="/strategic-plan" className="flex p-8 hover:text-black">
+                    STRATEGIC PLAN
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="flex p-8 hover:text-black">
-                    Projects 2
+                    STRATEGIC IMPLEMENTATION
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="flex p-8 hover:text-black">
-                    Projects 3
-                  </Link>
-                </li>
+                
               </ul>
             </li>
 

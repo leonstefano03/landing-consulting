@@ -9,13 +9,14 @@ export default function Triangle({img}) {
         }}
       />
       <Image   className='absolute top-0 z-0'
-       layout="responsive" width={0} height={0} src={'/triangleUp.svg'} />
-      <Image
+       layout="responsive" width={0} height={0} src={'/triangleUp.svg'} alt='triangle white up' />
+      <Image 
         layout="responsive"
         className='absolute bottom-0 z-0'
         width={0}
         height={0}
         src={'/triangleDown.svg'}
+        alt='triangle white down'
       />
     </section>
   );
