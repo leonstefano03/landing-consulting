@@ -63,10 +63,13 @@ export default function Nav() {
         <div className="w-[70%] h-full">
           <ul className=" sm:flex items-center justify-end h-full w-full text-sm font-semibold">
             <li className="hover:text-gray-700 h-full relative cursor-pointer px-6 menu__item flex items-center ">
-              STRATEGIC CONSULTING
+              <Link href="/">STRATEGIC CONSULTING</Link>
               <ul className="menu__nesting bg-white border-t border-solid border-black w-full right-0 bottom-0 absolute">
                 <li>
-                  <Link href="/strategic-plan" className="flex p-8 hover:text-black">
+                  <Link
+                    href="/strategic-plan"
+                    className="flex p-8 hover:text-black"
+                  >
                     STRATEGIC PLAN
                   </Link>
                 </li>
@@ -75,7 +78,6 @@ export default function Nav() {
                     STRATEGIC IMPLEMENTATION
                   </Link>
                 </li>
-                
               </ul>
             </li>
 
