@@ -74,7 +74,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="flex p-8 hover:text-black">
+                  <Link href="/strategic-implementation" className="flex p-8 hover:text-black">
                     STRATEGIC IMPLEMENTATION
                   </Link>
                 </li>
