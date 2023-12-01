@@ -25,7 +25,7 @@ export default function SectionAfterHeadear() {
           <SectionOptions
             textColor={'text-black'}
             button={'SEE MORE'}
-            href={'/contact'}
+            href={'/strategic-implementation'}
             titleColor={'text-gray-600'}
             hoverBottonTextColor={'text-black'}
             title={'STRATEGIC IMPLEMENTATION'}
